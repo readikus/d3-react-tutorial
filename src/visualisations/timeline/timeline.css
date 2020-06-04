@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+.axis path {
+
+}
+
+.lines line {
+  stroke-width: 7px;
+}
+
+.lines line.unselected {
+  opacity: 0.5;
+}
+.lines line.selected {
+  marker-start: url(#markerCircle);
+  marker-end: url(#markerCircle);
+}
+.markerCircle {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 1px;
+  width: 100%;
+}
+.axis text {
+  font-size: 11px;
+  fill: black;
+}
+.x-axis text {
+  text-anchor: center;
+  padding-top: 20px;
+}
+.axisGuide {
+
+    stroke-width: 1px;
+    stroke: #C1C1C1;
+    stroke-dasharray: 4; 
+}
+
+.x-axis .tick {
+
+}
+
+.popup {
+  background: white;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid black;
+  position: absolute;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+.popup .feature {
+
+}
+
+.popup .epic {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+
+
